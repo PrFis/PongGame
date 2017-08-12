@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1502139021 source:/home/paulo/cppPro/PONG/src/aipaddle.cpp
+	"aipaddle.h"
+
+1496857400 /home/paulo/cppPro/PONG/include/aipaddle.h
+	"ball.h"
+	<SDL2/SDL.h>
+
+1502396789 source:/home/paulo/cppPro/PONG/src/ball.cpp
+	"ball.h"
+	<ctime>
+
+1502138442 /home/paulo/cppPro/PONG/include/ball.h
+	"script.h"
+	<SDL2/SDL.h>
+	<stdlib.h>
+
+1502394161 source:/home/paulo/cppPro/PONG/src/paddle.cpp
+	"paddle.h"
+
+1500824798 /home/paulo/cppPro/PONG/include/paddle.h
+	<SDL2/SDL.h>
+
+1502395330 source:/home/paulo/cppPro/PONG/main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"paddle.h"
+	"ball.h"
+	"aipaddle.h"
+	"texture.h"
+	"separator.h"
+	"script.h"
+	"initialscreen.h"
+	<string>
+	<iostream>
+
+1500131520 source:/home/paulo/cppPro/PONG/src/texture.cpp
+	"texture.h"
+
+1496003114 /home/paulo/cppPro/PONG/include/texture.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+
+1496521986 source:/home/paulo/cppPro/PONG/src/separator.cpp
+	"separator.h"
+
+1496081970 /home/paulo/cppPro/PONG/include/separator.h
+	<SDL2/SDL.h>
+
+1500142770 /home/paulo/cppPro/PONG/include/script.h
+	"ball.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<string>
+
+1500142224 source:/home/paulo/cppPro/PONG/src/script.cpp
+	"script.h"
+
+1499709818 source:/home/paulo/cppPro/PONG/src/initialscreen.cpp
+	"initialscreen.h"
+	"texture.h"
+
+1499709842 /home/paulo/cppPro/PONG/include/initialscreen.h
+	"texture.h"
+	<SDL2/SDL_image.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+
